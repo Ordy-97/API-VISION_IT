@@ -11,8 +11,8 @@ const freelances = [
 	},
 	{
 		id: '2',
-		name: 'Arielle Gautier',
-		job: 'Développeuse fullstack',
+		name: 'Ordy DONFACK',
+		job: 'Développeuse frontend',
 		picture: 'http://localhost:8000/images/1.jpeg',
 		skills: ['Node JS', 'Vue.js', 'React', 'AWS'],
 		location: 'Paris',
@@ -21,8 +21,8 @@ const freelances = [
 	},
 	{
 		id: '3',
-		name: 'Marine Carpentier',
-		job: 'Développeuse frontend',
+		name: 'Brillant MBOU',
+		job: 'Développeuse fullstack',
 		picture: 'http://localhost:8000/images/2.jpeg',
 		skills: ['React', 'Gatsby', 'Next.js'],
 		location: 'Bordeaux',
@@ -41,7 +41,7 @@ const freelances = [
 	},
 	{
 		id: '5',
-		name: 'Clément Rolland',
+		name: 'Maxime NAFACK',
 		job: 'Développeur mobile',
 		picture: 'http://localhost:8000/images/5.jpeg',
 		skills: ['IOS', 'Android'],
@@ -101,7 +101,7 @@ const freelances = [
 	},
 	{
 		id: '11',
-		name: 'Maxime Lebrun',
+		name: 'Nathan NGOH',
 		job: 'Intégrateur SEO',
 		picture: 'http://localhost:8000/images/9.jpeg',
 		skills: ['SEO'],
