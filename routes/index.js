@@ -41,7 +41,7 @@ router.get('/freelances', function (req, res, next) {
 
 
 router.get('/', function (req, res, next) {
-	res.render('index', { title: 'API - Vision-IT' })
+	res.json({ message: 'Hello from Vison_IT API!' });
 })
 
 module.exports = router

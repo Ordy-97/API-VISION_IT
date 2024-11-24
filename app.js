@@ -8,6 +8,14 @@ const app = express()
 
 const cors = require('cors')
 
+app.use((req, res, next) => {
+	res.setHeader(
+	  "Content-Security-Policy",
+	  "default-src 'self'; script-src 'self' https://vercel.live"
+	);
+	next();
+  });
+
 app.use(cors())
 // view engine setup
 app.set('views', path.join(__dirname, 'views'))
@@ -30,6 +38,7 @@ app.use(function (req, res, next) {
 	next(createError(404))
 })
 
+  
 // error handler
 app.use(function (err, req, res, next) {
 	// set locals, only providing error in development
